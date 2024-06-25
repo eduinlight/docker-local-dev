@@ -2,6 +2,7 @@ version: "3.7"
 
 services:
   c:
+    platform: linux/amd64
     image: 'c-local-dev'
     build:
       context: .
