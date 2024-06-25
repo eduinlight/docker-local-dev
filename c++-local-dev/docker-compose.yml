@@ -3,7 +3,7 @@ version: "3.7"
 services:
   c:
     platform: linux/amd64
-    image: 'c-local-dev'
+    image: 'eduinlight/c-cpp-local-dev'
     build:
       context: .
       target: dev
